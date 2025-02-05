@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta name="keywords" content="注文,建築画報,Visual Architecture,建築画報社" />
+<meta name="description" content="建築画報の「注文」のページ。雑誌「建築画報」の他に建築画報社の出版物をご注文いただけます。" />
+<title>建築画報</title>
+<script type="text/javascript">
+//<![CDATA[
+var absolute_location = document.location.href;
+var var_absolute_location = absolute_location.split("\\");
+var var_absolute_location_set = var_absolute_location.join("/");
+var absolute_path = "/";
+var jsfile_jquery = '<script src="'+absolute_path+'common/js/jquery.min.js" type="text/javascript" charset="utf-8"></'+'script>';
+var jsfile_cookie = '<script src="'+absolute_path+'common/js/jquery.cookie.js" type="text/javascript" charset="utf-8"></'+'script>';
+var jsfile_common = '<script src="'+absolute_path+'common/js/common.js" type="text/javascript" charset="utf-8"></'+'script>';
+var jsfile_parts ='<script src="'+absolute_path+'common/js/parts.js" type="text/javascript" charset="utf-8"></'+'script>';
+var cssfile_base = '<link rel="stylesheet" type="text/css" media="all" href="' +absolute_path+ 'common/css/base.css" /'+'>';
+var cssfile_common = '<link rel="stylesheet" type="text/css" media="all" href="' +absolute_path+ 'common/css/common.css" /'+'>';
+var cssfile_contents = '<link rel="stylesheet" type="text/css" media="all" href="' +absolute_path+ 'common/css/contents.css" /'+'>';
+var cssfile_contents_print = '<link rel="stylesheet" type="text/css" media="print" href="' +absolute_path+ 'common/css/contents_p.css" /'+'>';
+var cssfile_local = '<link rel="stylesheet" type="text/css" media="all" href="./style.css" /'+'>';
+var link_home = '<link rel="home" href="' +absolute_path+ '">';
+document.write(jsfile_jquery,jsfile_cookie,jsfile_common,jsfile_parts,cssfile_base,cssfile_common,cssfile_contents,cssfile_contents_print,cssfile_local,link_home);
+
+var pageTitle = "order";
+//]]>
+</script>
+</head>
+
+<body onload="getOrderDate(); make_capital(); make_selbooks(); get_cookie_inform(); sel_selbooks();">
+<noscript>
+<p>当サイトはJavaScriptをonにしてご覧ください。</p>
+</noscript>
+<div class="container_box">
+<table id="container">
+<tr>
+<td colspan="4" id="headerArea">
+<div id="header"></div>
+</td>
+</tr>
+
+<tr>
+<td id="menu_other"><br /></td>
+<td id="menu_info"><br /></td>
+<td id="menu_issue"><br /></td>
+
+
+<td id="areaR">
+<div id="banner"></div>
+
+<div id="contents">
+<form method="post" action="./csvmail/mail.cgi">
+	<div>
+		<input type="hidden" name="necessary_k" value="個人_お名前,個人_住所1,個人_TEL,個人_MAIL" /><!-- 必須項目の指定。複数項目を指定する場合には、半角カンマで区切る。 -->
+		<input type="hidden" name="necessary_h" value="法人_会社名,法人_ご担当者名,法人_住所1,法人_TEL,法人_MAIL" /><!-- 必須項目の指定。複数項目を指定する場合には、半角カンマで区切る。 -->
+		<input type="hidden" name="thanks_page" value="../thanks.html" /><!-- 送信完了ページの指定。mail.cgiからの相対パス又はURL -->
+		<input type="hidden" name="to" value="order@kenchiku-gahou.com" /><!-- 送信先Eメールアドレス -->
+		<input type="hidden" name="subject" value="ご注文確認（自動配信メール）" /><!-- メールの件名 -->
+		<input type="hidden" name="subject_sys" value="注文フォーム" /><!-- メールの件名 -->
+	</div>
+
+	<div class="contents_center">
+		<div class="blackBoldB" style="text-align: left; ">
+		※ 送料は880円（税込）お客様のご負担となりますので、予めご了承ください。
+		</div>
+
+	<table class="orderTable" style="margin-top: 20px;">
+	<tr>
+	<td>
+		<table>
+			<tr>
+				<th><img src="./imgs/order_title.gif" alt="注文はこちら" width="590" height="32" /></th>
+			</tr>
+			<tr>
+				<td>
+					<div class="alignL">
+						<span class="redBoldB">※必須</span>の項目は入力必須項目となります。
+					</div>
+				</td>
+			</tr>
+		</table>
+
+		<table>
+			<tr>
+				<th colspan="3"><img src="./imgs/order_info.gif" alt="注文者情報" width="590" height="32" /></th>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<div class="alignR">
+						<span class="blackBoldB">注文日</span>
+					</div>
+				</td>
+				<td>
+					<div class="alignL">
+						<input type="text" size="20" name="ご注文日" id="order_date" value="" onfocus="this.blur();" readonly="readonly" />
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<th colspan="3"><img src="./imgs/order_class.gif" alt="お客様種別をチェックしてください" width="590" height="32" /></th>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<div class="alignC">
+						<input type="hidden" name="お客様種別" value="dic_dummy" />
+						<input type="radio" name="お客様種別" value="個人" checked="checked" /><span class="blackBoldB">個人</span>&emsp;&emsp;&emsp;
+						<input type="radio" name="お客様種別" value="法人" /><span class="blackBoldB">法人</span>&nbsp;<span class="redBoldS">※必須</span>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="4" style="width: 130px; width: 140px\9; *width: 23%; background-color: #DDDDDD;">
+					<div class="alignC">
+						<span class="blackBoldB">個</span><br />
+						<br />
+						<br />
+						<span class="blackBoldB">人</span>
+					</div>
+				</td>
+				<td style="width: 100px; width: 110px\9; *width: 18%;">
+					<div class="alignR">
+						<span class="blackBoldB">お名前</span><br />
+						<span class="redBoldS">※必須</span>
+					</div>
+				</td>
+				<td>
+					<div class="alignL">
+						<input name="個人_お名前" type="text" id="個人_お名前" value="" size="25" />
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="alignR">
+						<span class="blackBoldB">お届け先住所</span><br />
+						<span class="redBoldS">※必須</span>
+					</div>
+				</td>
+				<td>
+					<div class="alignL">
+						<div class="partsA">
+							〒&nbsp;<input name="個人_郵便番号1" type="text" id="個人_郵便番号1" value="" size="3" maxlength="10" class="input_number" />&nbsp;-&nbsp;<input name="個人_郵便番号2" type="text" id="個人_郵便番号2" value="" size="4" maxlength="11" class="input_number" />&nbsp;<span class="redBoldS">＜半角＞</span>
+						</div>
+
+						<div class="partsA">
+							<select name="個人_都道府県" id="個人_都道府県" class="capital"></select>
+						</div>
+						<div class="partsB">
+							<input name="個人_住所1" type="text" id="個人_住所1" value="" size="40" />
+						</div>
+						<div>
+							&ensp;（例 ： 新宿区新宿2-14-6）
+						</div>
+						<div class="partsB">
+							<input name="個人_住所2" type="text" id="個人_住所2" value="" size="40" />
+						</div>
+						<div>
+							&ensp;（例 ： 第一早川屋ビル）
+						</div>
+						<div class="partsB">
+							<input name="個人_住所3" type="text" id="個人_住所3" value="" size="40" />
+						</div>
+						<div>
+							&ensp;（例 ： 株式会社　建築画報社）
+						</div>
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div class="alignR">
+						<span class="blackBoldB" style="letter-spacing: -2px;">お届け先電話番号</span><br />
+						<span class="redBoldS">※必須</span>
+					</div>
+				</td>
+				<td>
+					<div class="alignL">
+						<input name="個人_TEL" type="text" id="個人_TEL" value="" size="20" class="input_number2" />&nbsp;<span class="redBoldS">＜半角＞</span>
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div class="alignR">
+						<span class="blackBoldB">e-mail</span><br />
+						<span class="redBoldS">※必須</span>
+					</div>
+				</td>
+				<td>
+					<div class="alignL">
+						<input name="個人_MAIL" type="text" id="個人_MAIL" value="" size="26" />&nbsp;<span class="redBoldS">＜半角＞</span>
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="3"><img src="/common/imgs/spacer.gif" width="1" height="1" alt="" /></td>
+			</tr>
+
+			<tr>
+				<td style="background-color: #DDDDDD;" rowspan="5">
+					<div class="alignC">
+						<span class="blackBoldB">法</span><br />
+						<br />
+						<br />
+						<span class="blackBoldB">人</span>
+					</div>
+				</td>
+				<td>
+					<div class="alignR">
+						<span class="blackBoldB">会社名</span><br />
+						<span class="redBoldS">※必須</span>
+					</div>
+				</td>
+				<td>
+					<div class="alignL">
+						<input name="法人_会社名" type="text" id="法人_会社名" value="" size="35" />
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div class="alignR">
+						<span class="blackBoldB">ご担当者名</span><br />
+						<span class="redBoldS">※必須</span>
+					</div>
+				</td>
+				<td>
+					<div class="alignL">
+						<input name="法人_ご担当者名" type="text" id="法人_ご担当者名" value="" size="25" />
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div class="alignR">
+						<span class="blackBoldB">住所</span><br />
+						<span class="redBoldS">※必須</span>
+					</div>
+				</td>
+				<td>
+					<div class="alignL">
+						<div class="partsA">
+							〒&nbsp;<input name="法人_郵便番号1" type="text" id="法人_郵便番号1" value="" size="3" maxlength="10" class="input_number" />&nbsp;-&nbsp;<input name="法人_郵便番号2" type="text" id="法人_郵便番号2" value="" size="4" maxlength="11" class="input_number" />&nbsp;<span class="redBoldS">＜半角＞</span>
+						</div>
+
+						<div class="partsA">
+							<select name="法人_都道府県" class="capital"></select>
+						</div>
+						<div class="partsB">
+							<input name="法人_住所1" type="text" id="法人_住所1" value="" size="40" />
+						</div>
+						<div>
+							&ensp;（例 ： 新宿区新宿2-14-6）
+						</div>
+						<div class="partsB">
+							<input name="法人_住所2" type="text" id="法人_住所2" value="" size="40" />
+						</div>
+						<div>
+							&ensp;（例 ： 第一早川屋ビル）
+						</div>
+						<div class="partsB">
+							<input name="法人_住所3" type="text" id="法人_住所3" value="" size="40" />
+						</div>
+						<div>
+							&ensp;（例 ： 株式会社　建築画報社）
+						</div>
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div class="alignR">
+						<span class="blackBoldB" style="letter-spacing: -2px;">電話番号</span><br />
+						<span class="redBoldS">※必須</span>
+					</div>
+				</td>
+				<td>
+					<div class="alignL">
+						<input name="法人_TEL" type="text" id="法人_TEL" value="" size="20" class="input_number2" />&nbsp;<span class="redBoldS">＜半角＞</span>
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div class="alignR">
+						<span class="blackBoldB">e-mail</span><br />
+						<span class="redBoldS">※必須</span>
+					</div>
+				</td>
+				<td>
+					<div class="alignL">
+						<input name="法人_MAIL" type="text" id="法人_MAIL" value="" size="26" />&nbsp;<span class="redBoldS">＜半角＞</span>
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="3">
+					<img src="./imgs/order_books.gif" alt="申し込み書籍" width="590" height="32" />
+				</td>
+			</tr>
+
+			<tr>
+				<td style="padding:8px 12px;">
+					<p class="blackBoldB">お支払い方法</p>
+				</td>
+				<td colspan="2" style="padding:8px 12px;">
+					<p class="blackBoldB">
+請求書は商品と一緒にお届け致します。1週間以内にお振込みください。<br />
+なお、振込手数料はお客様のご負担にてお願い申し上げます。</p>
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="3">&nbsp;
+					<table class="booksTable">
+						<tr>
+							<td style="width: 450px;">
+								<div class="selBooks">
+									<span class="blackBoldB">書籍（雑誌）名</span>
+								</div>
+							</td>
+							<td>
+								<div class="selBooks_num">
+									<span class="blackBoldB">注文冊数</span>
+								</div>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<div class="selBooks">
+									<select name="申し込み書籍1" id="申し込み書籍1">
+									</select>
+								</div>
+							</td>
+							<td>
+								<div class="selBooks_num">
+									<input name="申し込み書籍1のご注文冊数" type="text" id="申し込み書籍1のご注文冊数" value="0" size="3" />&nbsp;<span class="blackBoldB">冊</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="selBooks">
+									<select name="申し込み書籍2" id="申し込み書籍2">
+									</select>
+								</div>
+							</td>
+							<td>
+								<div class="selBooks_num">
+									<input name="申し込み書籍2のご注文冊数" type="text" id="申し込み書籍2のご注文冊数" value="0" size="3" />&nbsp;<span class="blackBoldB">冊</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="selBooks">
+									<select name="申し込み書籍3" id="申し込み書籍3">
+									</select>
+								</div>
+							</td>
+							<td>
+								<div class="selBooks_num">
+									<input name="申し込み書籍3のご注文冊数" type="text" id="申し込み書籍3のご注文冊数" value="0" size="3" />&nbsp;<span class="blackBoldB">冊</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="selBooks">
+									<select name="申し込み書籍4" id="申し込み書籍4">
+									</select>
+								</div>
+							</td>
+							<td>
+								<div class="selBooks_num">
+									<input name="申し込み書籍4のご注文冊数" type="text" id="申し込み書籍4のご注文冊数" value="0" size="3" />&nbsp;<span class="blackBoldB">冊</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="selBooks">
+									<select name="申し込み書籍5" id="申し込み書籍5">
+									</select>
+								</div>
+							</td>
+							<td>
+								<div class="selBooks_num">
+									<input name="申し込み書籍5のご注文冊数" type="text" id="申し込み書籍5のご注文冊数" value="0" size="3" />&nbsp;<span class="blackBoldB">冊</span>
+								</div>
+							</td>
+						</tr>
+					</table>
+					<br />
+				</td>
+			</tr>
+			<tr>
+				<td style="background-color: #DDDDDD;" colspan="3"><br /></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<div style="margin: 0 auto; width: 180px;">
+						<div class="alignL" style="width: 180px; padding: 0;">
+							他に連絡事項が有りましたら、<br />
+							ご記入下さい。
+						</div>
+					</div>
+				</td>
+				<td>
+					<textarea name="その他連絡事項" id="その他連絡事項"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<div class="alignC">
+						<input type="submit" value="送信内容確認" onclick="set_cookie_inform();" />&emsp;
+						<input type="reset" value="リセット" name="reset" onclick="location.reload();" />
+					</div>
+				</td>
+			</tr>
+		</table>
+
+		<div style="margin-top: 10px">
+			<div class="alignL">
+				＊お問い合わせは以下へお願いします<br />
+				TEL：03-3356-2568（土日祝日を除く）<br />
+				FAX：03-6380-0177<br />
+			</div>
+		</div>
+	</td>
+	</tr>
+	</table>
+	</div>
+</form>
+<div id="footer"></div>
+</div>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- Google tag (gtag.js) --> 
+<script async src = "https://www.googletagmanager.com/gtag/js?id=G-PCFJHJVDRD"></script>
+<script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag() {
+      dataLayer.push(arguments);
+   }
+   gtag('js', new Date());
+   gtag('config', 'G-PCFJHJVDRD'); 
+</script>
+</body>
+</html>

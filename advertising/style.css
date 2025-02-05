@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+#container #areaR .subtitleAdvertising {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* advertising list */
+#container #areaR table.advertising_list {
+	width: 750px;
+	margin: 5px 0 20px;
+	border-top: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+	border-collapse: collapse;
+}
+
+#container #areaR .bg_pink {
+	background-color: #fadce9;
+}
+
+#container #areaR .str_shift {
+	font-size: 14px;
+	padding-right: 4em;
+	line-height: 100%;
+}
+
+
+#container #areaR table.advertising_list th,
+#container #areaR table.advertising_list td {
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: middle;
+}
+
+#container #areaR table.advertising_list td {
+	line-height: 250%;
+}
+
+#container #areaR table.advertising_list td.lines {
+	height: 1px;
+	border-bottom: 1px solid #000000;
+}
+
+#container #areaR table.advertising_list td.dashed {
+	height: 1px;
+	border-bottom: 1px dashed #000000;
+}
+
+#container #areaR table.advertising_list td.child1 {
+	width: 100px;
+	padding-left: 20px;
+	font-weight: bold;
+	text-align: left;
+}
+
+#container #areaR table.advertising_list td.child2 {
+	width: 100px;
+	text-align: center;
+	font-size: 12px;
+}
+
+#container #areaR table.advertising_list .side_lines {
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
+}
+
+#container #areaR table.advertising_list td.child4 {
+	font-weight: bold;
+}
+
+#container #areaR #offer_contact {
+	margin-bottom: 10px;
+}
+
+#container #areaR #offer_contact .toOffer {
+	font-size: 16px;
+	font-weight: bold;
+}

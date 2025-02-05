@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+#container #areaR table#company_list {
+	width: 750px;
+	margin-bottom: 30px;
+}
+
+#container #areaR table#company_list td {
+	padding-bottom: 20px;
+	color: #000000;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 200%;
+	text-align: left;
+	vertical-align: top;
+}
+
+#container #areaR table#company_list td.heads {
+	width: 25%;
+	border-right: 2px solid #666666;
+}
+
+#container #areaR table#company_list td.items {
+	padding-left: 30px;
+}
+
+/* map.html */
+p.map_sentence {
+	margin-top: 20px;
+	font-size: 13px;
+	line-height: 200%;
+}

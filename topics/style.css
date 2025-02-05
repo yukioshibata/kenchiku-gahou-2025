@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+#container #areaR table#topics {
+	width: 750px;
+	margin-bottom: 30px;
+}
+
+#container #areaR table#topics td {
+	padding: 20px 0;
+	color: #000000;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: top;
+	border-bottom: 1px dashed #CCCCCC;
+}
+
+#container #areaR table#topics table#link_inpage {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#container #areaR table#topics table#link_inpage th {
+	width: 10%;
+	color: #000000;
+	font-size: 14px;
+	line-height: 120%;
+	vertical-align: middle;
+	text-align: center;
+	border: 0;
+}
+
+#container #areaR table#topics table#link_inpage td {
+	vertical-align: top;
+	text-align: center;
+	border: 0;
+}
+
+#container #areaR table#topics table#link_inpage td a {
+	color: #000066;
+	font-size: 12px;
+	line-height: 150%;
+}
+
+#container #areaR table#topics td .capName {
+	border-left: 5px solid #000000;
+	margin-top: 10px;
+	padding-left: 15px;
+	color: #000066;
+	font-size: 21px;
+	line-height: 120%;
+	vertical-align: middle;
+}
+
+#container #areaR table#topics td .stores {
+	padding-top: 20px;
+}
+
+#container #areaR table#topics td .stores .name {
+	font-size: 14px;
+	line-height: 150%;
+}
+
+#container #areaR table#topics td .stores .adr {
+	font-size: 10.5px;
+	line-height: 150%;
+}
+
+.area_title {
+	border-left: 2px solid #000000;
+	padding-left: 5px;
+}
+
+.capital_title {
+	padding-left: 7px;
+}

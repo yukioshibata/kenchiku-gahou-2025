@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/**********************************************************************/
+/*** promotion ********************************************************/
+#pamphlet_header {
+	position: relative;
+	height: 40px;
+}
+
+#pamphlet_header .pamphlet_telephone {
+	position: absolute;
+	top: 0;
+	right: 100px;
+}
+
+#pamphlet_header a.pamphlet_mailto {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 90px;
+	height: 30px;
+	text-indent: -9999px;
+	background-image: url("imgs/button_pamphlet.gif");
+	background-position: top;
+	background-repeat: no-repeat;
+	z-index: 10;
+}
+
+#pamphlet_header a.pamphlet_mailto:hover {
+	background-position: bottom;
+}
+
+#closeup_area {
+	margin: 36px 0;
+	width: 750px;
+}
+
+/*** promotion ********************************************************/
+/**********************************************************************/
+
+.gallery {
+    width:760px;
+	height:700px;
+	padding-left:35px;
+}

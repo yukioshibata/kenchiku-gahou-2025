@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/**********************************************************************/
+/*** promotion ********************************************************/
+#pamphlet_header {
+	position: relative;
+	height: 40px;
+}
+
+#pamphlet_header .pamphlet_telephone {
+	position: absolute;
+	top: 0;
+	right: 100px;
+}
+
+#pamphlet_header a.pamphlet_mailto {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 90px;
+	height: 30px;
+	text-indent: -9999px;
+	background-image: url("imgs/button_pamphlet.gif");
+	background-position: top;
+	background-repeat: no-repeat;
+	z-index: 10;
+}
+
+#pamphlet_header a.pamphlet_mailto:hover {
+	background-position: bottom;
+}
+
+#closeup_area {
+	margin: 36px 0;
+	width: 750px;
+}
+
+/*** promotion ********************************************************/
+/**********************************************************************/
+
+.gallery {
+    width:760px;
+	height:700px;
+	padding-left:35px;
+}
+
+.slick-dots {
+	margin-top:-50px;
+	margin-bottom:30px;
+}
+
+.slick-dots li.slick-active button::before {
+    opacity: .75;
+    color: blue;
+}
+.slick-dots li button::before{
+	    color: blue;
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    opacity: 1;
+    color: blue; /* hover時の色を変更 */
+}
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    /* 元のcontentプロパティの値だとfont-sizeを変更した際に位置がずれてしまうので値を変更 */
+    /* content: '•'; */
+    content: '●';
+    text-align: center;
+
+    opacity: .25;
+    color: blue;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: blue; /* active時の色を変更 */
+}

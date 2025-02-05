@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* archives */
+#contents {
+  padding: 0 20px;
+}
+#contents p {
+  font-size: 16px;
+  line-height: 160%;
+}
+#contents h3 {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 8px 0 8px 0;
+}
+#contents h2 {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px 0 12px 0;
+}
+#contents .title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.bw {
+   width:100%;
+   padding:6px 0 4px 12px !important;
+   background-color: #000;
+   color:white;
+   font-weight:bold;
+   font-size:14px;
+}
+
+.mincho {
+   font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+a.blueBoldB {
+    color: #000066;
+    font-weight: bold;
+    font-size: 14px;
+}

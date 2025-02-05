@@ -1,0 +1,573 @@
+@charset "UTF-8";
+
+/* popup */
+.bigfont {
+	color: #000000;
+	font-size: 12pt;
+	line-height: 16pt
+}
+
+.midfont {
+	color: #666666;
+	font-size: 12px;
+	line-height: 16px
+}
+
+.midrfont {
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 13px;
+	font-weight: bold
+}
+
+.midwfont {
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 17px
+}
+
+.smlfont {
+	color: #666666;
+	font-size: 10px;
+	line-height: 13pt;
+	font-family: "ＭＳ Ｐ明朝", "細明朝体"
+}
+
+.smallfont {
+	color: #666666;
+	font-size: 10px;
+	line-height: 15px
+}
+
+.smallfont2 {
+	color: #555555;
+	font-size: 12px;
+	line-height: 12px;
+	font-weight: bold
+}
+
+.smallwfont {
+	color: #FFFFFF;
+	font-size: 9px;
+	line-height: 11px
+}
+/*
+a:hover {
+	color: #FFFFCC;
+	text-decoration: underline;
+	font-weight: bold
+}
+
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold
+}
+
+a:visited {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none
+}
+*/
+dl {
+	line-height: 150%;
+}
+
+small {
+	color: #000000;
+	font-size: 9px;
+	font-family: geneva, verdana, helvetica;
+}
+
+.smlfont01 {
+	color: #FFFFFF;
+	font-size: 10px;
+	line-height: 13pt;
+	font-family: "Arial", "Helvetica", "sans-serif";
+}
+
+.smlfont02 {
+	color: #003366;
+	font-size: 10px;
+	line-height: 13pt;
+	font-family: "ＭＳ Ｐゴシック", "Osaka";
+}
+
+.smlfont03 {
+	font-size: 10px;
+	line-height: 13pt;
+	font-family: "ＭＳ Ｐ明朝", "細明朝体";
+}
+
+.hr01 {
+	color: #87ceeb;
+}
+/*
+a:active {
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+*/
+.link02 {
+	color: #006633;
+	text-decoration: none;
+}
+
+.mini {
+	font-size: 9px;
+}
+
+.rome {
+	font-family: "Courier New", "Courier", "mono";
+}
+
+.smallfont_br {
+	color: #000000;
+	font-size: 10px;
+	line-height: 15px;
+}
+
+.midfont_br {
+	color: #000000;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.s-font {
+	font-size: 10px;
+}
+
+.m-font {
+	font-size: 12px;
+}
+
+.l-font {
+	font-size: 14px;
+}
+
+.popupBody {
+	margin: 0;
+	_text-align: center;
+}
+
+.popupBody table {
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	width: 450px;
+}
+
+.popupBody table.imgTable td {
+	padding: 5px;
+}
+
+.popupBody table.dataTable {
+	margin-top: 5px;
+	padding-top: 5px;
+	border-top: 1px solid #666666;
+}
+
+.popupBody table.dataTable td {
+	color: #666666;
+	font-size: 10px;
+	line-height: 14px;
+	vertical-align: top;
+}
+
+.popupBody table.dataTable td.tableMenu {
+	text-align: right;
+}
+
+.popupBody table.closedTable {
+	margin: 15px 5px 5px;
+	background-color: #99CCFF;
+}
+
+.popupBody table.closedTable td {
+	padding: 0 10px 0 0;
+	text-align: right;
+	line-height: 15px;
+}
+
+.popupBody table.closedTable td a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+/* back number list */
+#container #areaR table#backnumber_list {
+	width: 750px;
+	margin-bottom: 30px;
+}
+
+#container #areaR table#backnumber_list td .tr_border {
+	border-bottom: 1px solid #336699;
+}
+
+#container #areaR table#backnumber_list .years {
+	margin-top: 30px;
+}
+
+#container #areaR table#backnumber_list td.contents {
+	width: 150px;
+}
+
+#container #areaR table#backnumber_list td.space {
+	width: 35px;
+}
+
+#container #areaR table#backnumber_list td table.years_onLists {
+	margin-bottom: -40px;
+	position: relative;
+	top: -40px;
+	left: 45px;
+	z-index: 10;
+}
+
+#container #areaR table#backnumber_list td table.none_onLists {
+	position: relative;
+	top: 0px;
+	left: 45px;
+	z-index: 10;
+}
+
+#container #areaR table#backnumber_list td.contents .date {
+	font-weight: bold;
+}
+
+#container #areaR table#backnumber_list td.contents .noHeight {
+	font-size: 1px;
+	line-height: 0;
+	height: 200px;
+}
+
+#container #areaR table#backnumber_list td.contents .noHeight a {
+	display: block;
+	width: 150px;
+	height: 200px;
+}
+
+#container #areaR table#backnumber_list td.contents .noHeight img {
+	width: 150px;
+	height: 200px;
+	vertical-align: bottom;
+	border: 0;
+}
+
+#container #areaR table#backnumber_list td.contents .noHeight img.imgMask {
+	position: relative;
+	top: -200px;
+	left: 0px;
+	z-index: 5;
+}
+
+#container #areaR table#backnumber_list td.contents .noHeight img.imgSoldOut {
+	position: relative;
+	top: -325px;
+	left: 35px;
+
+	width: 130px;
+	height: 119px;
+
+	z-index: 10;
+}
+
+#container #areaR table#backnumber_list td.contents .noHeight a.solink {
+	position: relative;
+	top: -519px;
+	left: 0px;
+	z-index: 20;
+}
+
+#container #areaR table#backnumber_list td.contents .noHeight img.imgLink {
+	border: 0;
+}
+/*
+#container #areaR table#backnumber_list td.contents img.soldout {
+	vertical-align: bottom;
+	position: relative;
+	top: -119px;
+	left: 35px;
+
+	width: 130px;
+	height: 119px;
+
+	margin-bottom: -100px;
+	border: 0;
+	z-index: 20;
+}
+*/
+#container #areaR table#backnumber_list td.contents .number {
+	color: #666666;
+	font-weight: bold;
+	vertical-align: baseline;
+	font-size: 20px;
+}
+
+#container #areaR table#backnumber_list td.contents .gou {
+	color: #666666;
+	font-weight: normal;
+	vertical-align: baseline;
+	font-size: 12px;
+}
+
+#container #areaR table#backnumber_list td.contents .title {
+	padding: 5px 1px;
+	border-bottom: 1px dashed #666666;
+	color: #666666;
+	font-weight: bold;
+	line-height: 150%;
+}
+
+#container #areaR table#backnumber_list td.contents .price {
+	margin: 5px 1px 20px;
+	margin: 5px 1px 10px\9;
+	color: #666666;
+	font-weight: bold;
+	line-height: 200%;
+}
+
+#container #areaR .grayStyle {
+	color: #666666;
+	font-size: 95%;
+}
+
+
+/* 号共通 */
+#container #areaR #featured .featuredL img {
+	width: 246px;
+	height: 330px;
+	vertical-align: bottom;
+	border: 0;
+}
+
+#container #areaR #featured .featuredL img.imgMask {
+	position: relative;
+	top: -330px;
+	left: 0px;
+	z-index: 5;
+}
+
+#container #areaR #featured .featuredL img.imgSoldOut {
+	position: relative;
+	top: -534px;
+	left: 52px;
+
+	width: 213px;
+	height: 196px;
+
+	z-index: 10;
+}
+
+#container #areaR #detail table.tableBN {
+	width: 750px;
+	border: 0;
+}
+
+#container #areaR #detail table.tableBN th {
+	color: #000066;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 125%;
+	text-align: left;
+	vertical-align: middle;
+	padding-right: 15px;
+}
+
+#container #areaR #detail table.tableBN th.captR {
+	text-align: right;
+}
+
+#container #areaR #detail table.tableBN th span {
+	color: #000066;
+	font-size: 12px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+#container #areaR #detail table.tableBN td {
+	line-height: 175%;
+	vertical-align: middle;
+}
+
+#container #areaR #detail table.tableBN td span {
+	line-height: 150%;
+	font-size: 11px;
+}
+
+#container #areaR #detail table.tableBN .blockWord {
+	padding: 3px 5px;
+	color: #FFFFFF;
+	background-color: #333333;
+	font-size: 80%;
+	font-weight: normal;
+}
+
+#container #areaR #detail table.tableBN table {
+	width: 100%;
+}
+
+#container #areaR #detail table.tableBN td.names {
+	vertical-align: top;
+}
+
+/* 300号 */
+#container #areaR #detail table.tableBN td table.sub300 {
+	margin: 5px 0;
+}
+
+#container #areaR #detail table.tableBN td table.sub300 td {
+	vertical-align: top;
+	line-height: 150%;
+}
+
+/* 302号 */
+#container #areaR #detail table.tableBN td table.sub302 {
+	margin: 5px 0;
+}
+
+/* 308号 */
+#container #areaR #detail table.tableBN td table.sub308 {
+	margin-bottom: 10px;
+}
+
+/* 310号 */
+#container #areaR #detail table.tableBN table.sub310 {
+	margin: 10px 0;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#container #areaR #detail table.tableBN table.sub310 td {
+	padding: 0;
+}
+
+/* 317号 */
+#container #areaR #detail table.tableBN table.sub317 th {
+    color: #000000;
+    font-size: 12px;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+#container #areaR #detail table.tableBN table.sub317 td {
+    color: #666666;
+    font-size: 11px;
+    font-weight: normal;
+    vertical-align: middle;
+	padding-bottom: 10px;
+}
+
+/* 327号 */
+#container #areaR #detail table.tableBN td.sub327 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+
+#container #areaR #detail table.tableBN td.sub327 span {
+	font-weight: normal;
+}
+
+/* 328号 */
+#container #areaR #detail table.tableBN th.sub328 {
+    color: #666666;
+    font-size: 12px;
+    font-weight: bold;
+	vertical-align: top;
+}
+
+#container #areaR #detail table.tableBN td.sub328 {
+    color: #000066;
+    font-size: 12px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+#container #areaR #detail table.tableBN th.sub334 {
+    color: #666666;
+    font-size: 12px;
+    font-weight: bold;
+	vertical-align: top;
+}
+
+#container #areaR #detail table.tableBN td.sub334 {
+    color: #000066;
+    font-size: 12px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+/* 331号 */
+#container #areaR #detail table.tableBN span.sub331 {
+	color: #000000;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* 332号 */
+#container #areaR #detail table.tableBN span.sub332 {
+	color: #000000;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* 338号 */
+#container #areaR #detail table.table338 {
+	width: 750px;
+}
+
+#container #areaR #detail table.table338 th {
+	color: #000066;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: right;
+	vertical-align: middle;
+	padding-right: 15px;
+}
+
+#container #areaR #detail table.table338 td {
+	line-height: 14px;
+	vertical-align: middle;
+}
+
+#container #areaR #detail table.table338 td.larger {
+	font-size: 125%;
+}
+
+/* 339号 */
+#container #areaR #detail table.table339 {
+	width: 750px;
+}
+
+#container #areaR #detail table.table339 th {
+	color: #000066;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 175%;
+	text-align: right;
+	vertical-align: middle;
+	padding-right: 15px;
+}
+
+#container #areaR #detail table.table339 th.captL {
+	text-align: left;
+}
+
+#container #areaR #detail table.table339 td {
+	line-height: 175%;
+	vertical-align: middle;
+}
+
+/* 341号 */
+#container #areaR #detail table.tableBN table.sub341 {
+	margin-bottom: 10px;
+}
+
+#container #areaR #detail table.tableBN table.sub341 td {
+	vertical-align: top;
+	line-height: 150%;
+}

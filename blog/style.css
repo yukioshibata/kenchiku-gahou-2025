@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* blog */
+#contents {
+  padding: 0 20px;
+}
+#contents p {
+  font-size: 16px;
+  line-height: 160%;
+}
+#contents h3 {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 8px 0 8px 0;
+}
+#contents h2 {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px 0 12px 0;
+}
+#contents .title {
+  font-weight: bold;
+  font-size: 18px;
+}

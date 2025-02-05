@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+/* architect list */
+#container #areaR #architect_top {
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #666666;
+}
+
+a.button_detail_architect {
+	display: block;
+	width: 85px;
+	height: 21px;
+	text-indent: -9999px;
+	background-image: url("./imgs/button_detail_architect.gif");
+	background-position: top;
+}
+
+a.button_detail_architect:hover {
+	background-image: url("./imgs/button_detail_architect.gif");
+	background-position: bottom;
+}
+
+#container #areaR table.listTable {
+	width: 750px;
+	margin: 20px 0;
+	border-bottom: 1px dashed #666666;
+}
+
+#container #areaR table.listTable td .tr_border {
+	border-bottom: 1px solid #336699;
+}
+
+#container #areaR table.listTable table.contents {
+	margin-bottom: 50px;
+}
+
+#container #areaR table.listTable table.contents td.contentsL {
+	font-size: 1px;
+	line-height: 0;
+}
+
+#container #areaR table.listTable table.contents td.contentsL img {
+	width: 150px;
+	vertical-align: bottom;
+	border: 0;
+}
+
+#container #areaR table.listTable table.contents td.midSpace {
+	width: 15px;
+}
+
+#container #areaR table.listTable table.contents td.contentsRU {
+	width: 185px;
+}
+
+#container #areaR table.listTable table.contents td.contentsRU .name {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 150%;
+	color: #666666;
+}
+
+#container #areaR table.listTable table.contents td.contentsRU .roman {
+	margin-bottom: 5px;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 150%;
+	color: #666666;
+}
+
+#container #areaR table.listTable table.contents td.contentsRL {
+	width: 185px;
+	vertical-align: bottom;
+}
+
+#container #areaR table.listTable table.contents td.rightSpace {
+	width: 25px;
+}
+
+#container #areaR #architect_table {
+	width: 100%;
+	overflow: auto;
+	margin: 30px 0;
+	border-bottom: 1px dashed #666666;
+}
+
+#container #areaR #architect_table td .image {
+	width: 178px;
+	padding-right: 60px;
+}
+
+#container #areaR #architect_table td .name {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", osaka, "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
+	color: #000066;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#container #areaR #architect_table td .name .roman {
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#container #areaR #architect_table td .title {
+	color: #000066;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 20px 0;
+}
+
+#container #areaR #architect_table td .profile {
+	font-size: 12px;
+	line-height: 200%;
+	margin-bottom: 15px;
+}
+
+#container #areaR #architect_table td .winning {
+	font-size: 12px;
+	line-height: 200%;
+	margin-bottom: 15px;
+}
+
+#container #areaR #architect_table td .winning .subtitle {
+	font-weight: bold;
+}
+
+#container #areaR #architect_table td .winning table td.years {
+	width: 70px;
+}
+
+#container #areaR #architect_table td .books {
+	font-size: 12px;
+	line-height: 200%;
+	margin-bottom: 15px;
+}
+
+#container #areaR #architect_table td .books .subtitle {
+	font-weight: bold;
+}

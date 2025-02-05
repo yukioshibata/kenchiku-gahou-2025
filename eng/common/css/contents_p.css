@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+#container #menu_other {
+	width: 60px;
+	background-color: #F29600;
+}
+
+#container #menu_info {
+	width: 60px;
+	background-color: #72B321;
+}
+
+#container #menu_issue {
+	width: 60px;
+	background-color: #2C9FCA;
+}
+
+#container .submenu {
+	width: 34px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+#container .submenu img {
+	margin-bottom: 18px;
+}
+
+#container .submenu a {
+	overflow: auto;
+}
+
+#container .submenu .nonPage {
+	opacity: 0.3;
+	-moz-opacity: 0.3;
+	filter: alpha(opacity=30);
+	zoom: 1;
+}
+
+#container .submenu .thisPage {
+/*
+	opacity: 0.7;
+	-moz-opacity: 0.7;
+	filter: alpha(opacity=70);
+	zoom: 1;
+*/
+}
+
+#container .submenu .submenuL {
+	float: left;
+	width: 15px;
+	margin: 0 0 0 auto;
+	text-align: left;
+}
+
+#container .submenu .submenuR {
+	float: right;
+	width: 15px;
+	margin: 0 auto 0 0;
+	text-align: right;
+}
+
+
+#container #areaR {
+}
+
+#container #areaR #banner {
+	width: 820px;
+	height: 90px;
+	background-position: top;
+	_text-align: left;
+}
+
+#container #areaR #contents {
+	vertical-align: top;
+	margin: 32px 35px 0;
+}
+
+/* featured */
+#container #areaR #featured {
+	width: 100%;
+	overflow: auto;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px dashed #666666;
+}
+
+#container #areaR #featured .featuredL {
+	float: left;
+	width: 270px;
+	height: 330px;
+	overflow: hidden;
+}
+
+#container #areaR #featured .featuredR {
+	float: right;
+	width: 458px;
+}
+
+#container #areaR #featured .title {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", osaka, "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
+	color: #000066;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#container #areaR #featured .subtitle {
+	color: #000066;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#container #areaR #featured .subtitle .small {
+	color: #000066;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#container #areaR #featured .contents {
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 200%;
+	margin-bottom: 15px;
+}
+
+/*******/
+/*******/
+/*******/
+#container #areaR #featured_table {
+	width: 100%;
+	overflow: auto;
+	margin-bottom: 30px;
+	border-bottom: 1px dashed #666666;
+}
+
+#container #areaR #featured_table td .image {
+	width: 246px;
+	height: 330px;
+	padding-right: 40px;
+}
+
+#container #areaR #featured_table td .title {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", osaka, "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
+	color: #000066;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#container #areaR #featured_table td .subtitle {
+	color: #000066;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#container #areaR #featured_table td .contents {
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 200%;
+	margin-bottom: 15px;
+}
+
+#container #areaR #featured_table .subtitle .small {
+	color: #000066;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#container #areaR .button_upper_price {
+	font-weight: bold;
+	line-height: 150%;
+	margin-bottom: 10px;
+}
+
+#container #areaR .button_order_bottom {
+	float: left;
+	padding-bottom: 5px;
+}
+/*******/
+/*******/
+/*******/
+
+#container #areaR #detail {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#container #areaR #detail .sub_imgs {
+	overflow: auto;
+	overflow: hidden\9;
+	zoom: 1;
+}
+
+#container #areaR #detail .sub_imgs .left {
+	float: left;
+}
+
+#container #areaR #detail .sub_imgs .right {
+	float: right;
+}
+
+#container #areaR #detail .tableFeatured {
+	width: 100%;
+	margin-top: 30px;
+}
+
+#container #areaR #detail .tableFeatured td {
+	font-weight: bold;
+	line-height: 200%;
+}
+
+#container #areaR #detail .featuredPrice {
+	margin: 20px 0;
+	padding: 10px 0;
+	border-top: 1px dashed #666666;
+	border-bottom: 1px dashed #666666;
+	font-weight: bold;
+	line-height: 200%;
+}
+
+#container #areaR #order_area {
+	width: 100%;
+	font-weight: bold;
+	line-height: 200%;
+	margin-bottom: 30px;
+}
+
+/*** ここから印刷用スタイル ***/
+@media print {
+	body {
+		_zoom: 0.72;
+	}
+}

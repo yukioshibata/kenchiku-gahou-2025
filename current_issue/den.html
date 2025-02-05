@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta name="keywords" content="新刊,建築画報,Visual Architecture,建築画報社" />
+<meta name="description" content="建築画報社の「新刊案内」のページ。雑誌「建築画報」の他に建築画報社の新刊を紹介します。" />
+<title>建築画報</title>
+<script type="text/javascript">
+//<![CDATA[
+var absolute_location = document.location.href;
+var var_absolute_location = absolute_location.split("\\");
+var var_absolute_location_set = var_absolute_location.join("/");
+var absolute_path = "/";
+var jsfile_jquery = '<script src="'+absolute_path+'common/js/jquery.min.js" type="text/javascript"></'+'script>';
+var jsfile_common = '<script src="'+absolute_path+'common/js/common.js" type="text/javascript"></'+'script>';
+var cssfile_base = '<link rel="stylesheet" type="text/css" media="all" href="' +absolute_path+ 'common/css/base.css" /'+'>';
+var cssfile_common = '<link rel="stylesheet" type="text/css" media="all" href="' +absolute_path+ 'common/css/common.css" /'+'>';
+var cssfile_contents = '<link rel="stylesheet" type="text/css" media="all" href="' +absolute_path+ 'common/css/contents.css" /'+'>';
+var cssfile_contents_print = '<link rel="stylesheet" type="text/css" media="print" href="' +absolute_path+ 'common/css/contents_p.css" /'+'>';
+var link_home = '<link rel="home" href="' +absolute_path+ '">';
+document.write(jsfile_jquery,jsfile_common,cssfile_base,cssfile_common,cssfile_contents,cssfile_contents_print,link_home);
+
+var pageTitle = "current_issue";
+//]]>
+</script> 
+<script src="/common/js/issue.js" type="text/javascript"></script> 
+<script src="/common/js/va.js" type="text/javascript"></script> 
+<script type="text/javascript">
+$(document).ready(function(){
+
+var den = function() {
+  /* 画像名称 小 */		this.imgname='den.jpg';
+  /* 画像名称 大 */		this.imgname2='denl.jpg';
+  /* 本タイトル */		this.title='能の専門誌 DEN';
+  /* サブタイトル */	this.subtitle='（創刊号～50号）';
+  /* 紹介テキスト */	this.texts='1990年7月創刊～2009年9月までの、19年と2カ月の間に全50巻を発刊した、小さな能の専門誌「DEN」。写真家・森田拾史郎の写真をメインに、貴重な論考や対談、連載などを掲載する。「DEN」の編集・発刊を引き継いだ小社は、写真家 森田拾史郎の単行本『能舞台　歴史を巡る』を発刊する縁ともなった。<br /><br />';
+  /* 紹介テキスト長 */	this.textl=this.texts+'※全50巻セットなら割引価格で。1冊単位でのご購入も歓迎いたします。１～50の何号をお求めかをご注文ページの備考欄に必ずご明記ください。<br />※経年による若干の劣化のある場合がございますのでご容赦ください。<br />※小社直販のみ。書店、Amazon等での販売は行っておりません。' + '<br><br>';
+  /* 本情報 */			this.attr='本文　32ページ～98ページ<br />仕様　A5判<br />定価　[1～18号]各660円、[19～20号]各817円、[21号]880円、[22～46号]各817円、[47～50号]各891円（税込。送料370円）<br />定価　全50巻セット特別価格　37,400円（税込。送料小社負担）<br /><br />';
+  /* 目次 */            this.listindex='/back_number/list/index-den.html';
+};	
+
+var current1 = new  den();
+striptitle=current1.title.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g,'');
+
+$('#Current1Image').html('<img src="/book/imgs/' + current1.imgname +'" alt="' + striptitle +'" class="shadow" width="246" /><br />');
+// $('#Current1Image').html('<img src="/book/imgs/' + current1.imgname +'" alt="' + striptitle +'" class="shadow" width="200" /><br />');
+//$('#Current1Image2').html('<a href="/book/imgs/' + current1.imgname2 + '" data-lightbox="' + striptitle + '"  data-title="' + striptitle + '"> <img src="/book/imgs/' + current1.imgname + '" alt="current issue" class="shadow" width="246" /></a><br />');
+$('#Current1Image2').html('<a href="/book/imgs/' + current1.imgname2 + '" data-lightbox="' + striptitle + '"  data-title="' + striptitle + '"> <img src="/book/imgs/' + current1.imgname + '" alt="current issue" class="shadow" width="246" /></a><br />');
+$('#Current1Title').html(current1.title);
+$('#Current1SubTitle').html(current1.subtitle);
+$('#Current1TextS').html(current1.texts);
+$('#Current1TextL').html(current1.textl);
+$('#Current1Attr').html(current1.attr);
+
+});
+</script> 
+
+<!--GoogleAnalytics--> 
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22703134-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<link rel="stylesheet" type="text/css" media="all" href="/common/css/lightbox.css" />
+<script src="/common/js/lightbox.min.js" type="text/javascript"></script>
+<style>
+.den-0 {
+   width: 100%;
+}
+.den-t {
+   width: 100%;
+   padding: 12px 0 0 6%;
+   display: block;
+   float: left;
+   text-decoration: bold;
+}
+.den-1 {
+   display: block;
+   width: 30%;
+   margin-top: 4px;
+   float: left;
+   text-align: right;
+}
+.den-2 {
+   display: block;
+   width: 70%;
+   margin-top: 4px;
+   float: left;
+   text-align: left;
+}
+</style>
+</head>
+<body>
+<noscript>
+<p>当サイトはJavaScriptをonにしてご覧ください。</p>
+</noscript>
+<div class="container_box">
+   <table id="container">
+      <tr>
+         <td colspan="4" id="headerArea">
+            <div id="header"> </div>
+         </td>
+      </tr>
+      <tr>
+         <td id="menu_other"><br />
+         </td>
+         <td id="menu_info"><br />
+         </td>
+         <td id="menu_issue"><br />
+         </td>
+         <td id="areaR">
+            <div id="banner"> </div>
+            <div id="contents"> <a name="book1" id="book1"></a> 
+               <!-- book1 -->
+               <table id="featured_table" style="border:none;">
+                  <tr>
+                     <td rowspan="2" style="width: 280px;">
+                        <div class="image" id="Current1Image2"> <br />
+                           <br />
+                           &nbsp;<br />
+                        </div>
+                     </td>
+                     <td>
+                        <div class="title" id="Current1Title"> <br />
+                        </div>
+                        <div class="subtitle" id="Current1SubTitle"> <br />
+                        </div>
+                        <div class="contents">
+                           <div id="Current1TextL"> <br />
+                           </div>
+                           <div id="Current1Attr"> <br />
+                           </div>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td style="vertical-align: bottom;">
+                        <div class="button_order_bottom"> <a href="../order/index.html" class="button_order2">ご注文</a> </div>
+                        <br />
+                     </td>
+                  </tr>
+               </table>
+               <table id="featured_table">
+                  <tr>
+                     <td style="width: 100%;">
+                        <div id="detail" style="padding-left:100px;"> <b><span class="pr36px">DEN 創刊号～50号 目次</span></b><br />
+                           <br />
+
+<div class="den-0"><div class="den-t">●DEN 001 1999年07月号</div><div class="den-1"><a href="/book/imgs_den/001.jpg" data-lightbox="den" data-title="1999年07月号 表紙"> <img src="/book/imgs_den/001.jpg" style="height:250px;" alt="1999年07月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/001_cts.jpg" data-lightbox="den" data-title="1999年07月号 目次"><img src="/book/imgs_den/001_cts.jpg" style="height:250px;" alt="1999年07月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 002 1999年09月号</div><div class="den-1"><a href="/book/imgs_den/002.jpg" data-lightbox="den" data-title="1999年09月号 表紙"> <img src="/book/imgs_den/002.jpg" style="height:250px;" alt="1999年09月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/002_cts.jpg" data-lightbox="den" data-title="1999年09月号 目次"><img src="/book/imgs_den/002_cts.jpg" style="height:250px;" alt="1999年09月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 003 1999年11月号</div><div class="den-1"><a href="/book/imgs_den/003.jpg" data-lightbox="den" data-title="1999年11月号 表紙"> <img src="/book/imgs_den/003.jpg" style="height:250px;" alt="1999年11月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/003_cts.jpg" data-lightbox="den" data-title="1999年11月号 目次"><img src="/book/imgs_den/003_cts.jpg" style="height:250px;" alt="1999年11月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 004 2000年01月号</div><div class="den-1"><a href="/book/imgs_den/004.jpg" data-lightbox="den" data-title="2000年01月号 表紙"> <img src="/book/imgs_den/004.jpg" style="height:250px;" alt="2000年01月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/004_cts.jpg" data-lightbox="den" data-title="2000年01月号 目次"><img src="/book/imgs_den/004_cts.jpg" style="height:250px;" alt="2000年01月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 005 2000年03月号</div><div class="den-1"><a href="/book/imgs_den/005.jpg" data-lightbox="den" data-title="2000年03月号 表紙"> <img src="/book/imgs_den/005.jpg" style="height:250px;" alt="2000年03月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/005_cts.jpg" data-lightbox="den" data-title="2000年03月号 目次"><img src="/book/imgs_den/005_cts.jpg" style="height:250px;" alt="2000年03月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 006 2000年05月号</div><div class="den-1"><a href="/book/imgs_den/006.jpg" data-lightbox="den" data-title="2000年05月号 表紙"> <img src="/book/imgs_den/006.jpg" style="height:250px;" alt="2000年05月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/006_cts.jpg" data-lightbox="den" data-title="2000年05月号 目次"><img src="/book/imgs_den/006_cts.jpg" style="height:250px;" alt="2000年05月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 007 2000年07月号</div><div class="den-1"><a href="/book/imgs_den/007.jpg" data-lightbox="den" data-title="2000年07月号 表紙"> <img src="/book/imgs_den/007.jpg" style="height:250px;" alt="2000年07月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/007_cts.jpg" data-lightbox="den" data-title="2000年07月号 目次"><img src="/book/imgs_den/007_cts.jpg" style="height:250px;" alt="2000年07月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 008 2000年09月号</div><div class="den-1"><a href="/book/imgs_den/008.jpg" data-lightbox="den" data-title="2000年09月号 表紙"> <img src="/book/imgs_den/008.jpg" style="height:250px;" alt="2000年09月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/008_cts.jpg" data-lightbox="den" data-title="2000年09月号 目次"><img src="/book/imgs_den/008_cts.jpg" style="height:250px;" alt="2000年09月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 009 2000年11月号</div><div class="den-1"><a href="/book/imgs_den/009.jpg" data-lightbox="den" data-title="2000年11月号 表紙"> <img src="/book/imgs_den/009.jpg" style="height:250px;" alt="2000年11月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/009_cts.jpg" data-lightbox="den" data-title="2000年11月号 目次"><img src="/book/imgs_den/009_cts.jpg" style="height:250px;" alt="2000年11月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 010 2001年01月号</div><div class="den-1"><a href="/book/imgs_den/010.jpg" data-lightbox="den" data-title="2001年01月号 表紙"> <img src="/book/imgs_den/010.jpg" style="height:250px;" alt="2001年01月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/010_cts.jpg" data-lightbox="den" data-title="2001年01月号 目次"><img src="/book/imgs_den/010_cts.jpg" style="height:250px;" alt="2001年01月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 011 2001年03月号</div><div class="den-1"><a href="/book/imgs_den/011.jpg" data-lightbox="den" data-title="2001年03月号 表紙"> <img src="/book/imgs_den/011.jpg" style="height:250px;" alt="2001年03月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/011_cts.jpg" data-lightbox="den" data-title="2001年03月号 目次"><img src="/book/imgs_den/011_cts.jpg" style="height:250px;" alt="2001年03月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 012 2001年03月号</div><div class="den-1"><a href="/book/imgs_den/012.jpg" data-lightbox="den" data-title="2001年03月号 表紙"> <img src="/book/imgs_den/012.jpg" style="height:250px;" alt="2001年03月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/012_cts.jpg" data-lightbox="den" data-title="2001年03月号 目次"><img src="/book/imgs_den/012_cts.jpg" style="height:250px;" alt="2001年03月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 013 2001年07月号</div><div class="den-1"><a href="/book/imgs_den/013.jpg" data-lightbox="den" data-title="2001年07月号 表紙"> <img src="/book/imgs_den/013.jpg" style="height:250px;" alt="2001年07月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/013_cts.jpg" data-lightbox="den" data-title="2001年07月号 目次"><img src="/book/imgs_den/013_cts.jpg" style="height:250px;" alt="2001年07月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 014 2001年09月号</div><div class="den-1"><a href="/book/imgs_den/014.jpg" data-lightbox="den" data-title="2001年09月号 表紙"> <img src="/book/imgs_den/014.jpg" style="height:250px;" alt="2001年09月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/014_cts.jpg" data-lightbox="den" data-title="2001年09月号 目次"><img src="/book/imgs_den/014_cts.jpg" style="height:250px;" alt="2001年09月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 015 2001年11月号</div><div class="den-1"><a href="/book/imgs_den/015.jpg" data-lightbox="den" data-title="2001年11月号 表紙"> <img src="/book/imgs_den/015.jpg" style="height:250px;" alt="2001年11月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/015_cts.jpg" data-lightbox="den" data-title="2001年11月号 目次"><img src="/book/imgs_den/015_cts.jpg" style="height:250px;" alt="2001年11月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 016 2002年01月号</div><div class="den-1"><a href="/book/imgs_den/016.jpg" data-lightbox="den" data-title="2002年01月号 表紙"> <img src="/book/imgs_den/016.jpg" style="height:250px;" alt="2002年01月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/016_cts.jpg" data-lightbox="den" data-title="2002年01月号 目次"><img src="/book/imgs_den/016_cts.jpg" style="height:250px;" alt="2002年01月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 017 2002年03月号</div><div class="den-1"><a href="/book/imgs_den/017.jpg" data-lightbox="den" data-title="2002年03月号 表紙"> <img src="/book/imgs_den/017.jpg" style="height:250px;" alt="2002年03月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/017_cts.jpg" data-lightbox="den" data-title="2002年03月号 目次"><img src="/book/imgs_den/017_cts.jpg" style="height:250px;" alt="2002年03月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 018 2002年05月号</div><div class="den-1"><a href="/book/imgs_den/018.jpg" data-lightbox="den" data-title="2002年05月号 表紙"> <img src="/book/imgs_den/018.jpg" style="height:250px;" alt="2002年05月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/018_cts.jpg" data-lightbox="den" data-title="2002年05月号 目次"><img src="/book/imgs_den/018_cts.jpg" style="height:250px;" alt="2002年05月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 019 2002年07月号</div><div class="den-1"><a href="/book/imgs_den/019.jpg" data-lightbox="den" data-title="2002年07月号 表紙"> <img src="/book/imgs_den/019.jpg" style="height:250px;" alt="2002年07月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/019_cts.jpg" data-lightbox="den" data-title="2002年07月号 目次"><img src="/book/imgs_den/019_cts.jpg" style="height:250px;" alt="2002年07月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 020 2002年09月号</div><div class="den-1"><a href="/book/imgs_den/020.jpg" data-lightbox="den" data-title="2002年09月号 表紙"> <img src="/book/imgs_den/020.jpg" style="height:250px;" alt="2002年09月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/020_cts.jpg" data-lightbox="den" data-title="2002年09月号 目次"><img src="/book/imgs_den/020_cts.jpg" style="height:250px;" alt="2002年09月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 021 2002年11月号</div><div class="den-1"><a href="/book/imgs_den/021.jpg" data-lightbox="den" data-title="2002年11月号 表紙"> <img src="/book/imgs_den/021.jpg" style="height:250px;" alt="2002年11月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/021_cts.jpg" data-lightbox="den" data-title="2002年11月号 目次"><img src="/book/imgs_den/021_cts.jpg" style="height:250px;" alt="2002年11月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 022 2003年01月号</div><div class="den-1"><a href="/book/imgs_den/022.jpg" data-lightbox="den" data-title="2003年01月号 表紙"> <img src="/book/imgs_den/022.jpg" style="height:250px;" alt="2003年01月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/022_cts.jpg" data-lightbox="den" data-title="2003年01月号 目次"><img src="/book/imgs_den/022_cts.jpg" style="height:250px;" alt="2003年01月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 023 2003年03月号</div><div class="den-1"><a href="/book/imgs_den/023.jpg" data-lightbox="den" data-title="2003年03月号 表紙"> <img src="/book/imgs_den/023.jpg" style="height:250px;" alt="2003年03月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/023_cts.jpg" data-lightbox="den" data-title="2003年03月号 目次"><img src="/book/imgs_den/023_cts.jpg" style="height:250px;" alt="2003年03月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 024 2003年05月号</div><div class="den-1"><a href="/book/imgs_den/024.jpg" data-lightbox="den" data-title="2003年05月号 表紙"> <img src="/book/imgs_den/024.jpg" style="height:250px;" alt="2003年05月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/024_cts.jpg" data-lightbox="den" data-title="2003年05月号 目次"><img src="/book/imgs_den/024_cts.jpg" style="height:250px;" alt="2003年05月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 025 2003年07月号</div><div class="den-1"><a href="/book/imgs_den/025.jpg" data-lightbox="den" data-title="2003年07月号 表紙"> <img src="/book/imgs_den/025.jpg" style="height:250px;" alt="2003年07月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/025_cts.jpg" data-lightbox="den" data-title="2003年07月号 目次"><img src="/book/imgs_den/025_cts.jpg" style="height:250px;" alt="2003年07月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 026 2003年09月号</div><div class="den-1"><a href="/book/imgs_den/026.jpg" data-lightbox="den" data-title="2003年09月号 表紙"> <img src="/book/imgs_den/026.jpg" style="height:250px;" alt="2003年09月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/026_cts.jpg" data-lightbox="den" data-title="2003年09月号 目次"><img src="/book/imgs_den/026_cts.jpg" style="height:250px;" alt="2003年09月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 027 2003年11-12月号</div><div class="den-1"><a href="/book/imgs_den/027.jpg" data-lightbox="den" data-title="2003年11-12月号 表紙"> <img src="/book/imgs_den/027.jpg" style="height:250px;" alt="2003年11-12月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/027_cts.jpg" data-lightbox="den" data-title="2003年11-12月号 目次"><img src="/book/imgs_den/027_cts.jpg" style="height:250px;" alt="2003年11-12月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 028 2004年01-02月号</div><div class="den-1"><a href="/book/imgs_den/028.jpg" data-lightbox="den" data-title="2004年01-02月号 表紙"> <img src="/book/imgs_den/028.jpg" style="height:250px;" alt="2004年01-02月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/028_cts.jpg" data-lightbox="den" data-title="2004年01-02月号 目次"><img src="/book/imgs_den/028_cts.jpg" style="height:250px;" alt="2004年01-02月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 029 2004年03-04月号</div><div class="den-1"><a href="/book/imgs_den/029.jpg" data-lightbox="den" data-title="2004年03-04月号 表紙"> <img src="/book/imgs_den/029.jpg" style="height:250px;" alt="2004年03-04月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/029_cts.jpg" data-lightbox="den" data-title="2004年03-04月号 目次"><img src="/book/imgs_den/029_cts.jpg" style="height:250px;" alt="2004年03-04月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 030 2004年05-08月号</div><div class="den-1"><a href="/book/imgs_den/030.jpg" data-lightbox="den" data-title="2004年05-08月号 表紙"> <img src="/book/imgs_den/030.jpg" style="height:250px;" alt="2004年05-08月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/030_cts.jpg" data-lightbox="den" data-title="2004年05-08月号 目次"><img src="/book/imgs_den/030_cts.jpg" style="height:250px;" alt="2004年05-08月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 031 2004年09-12月号</div><div class="den-1"><a href="/book/imgs_den/031.jpg" data-lightbox="den" data-title="2004年09-12月号 表紙"> <img src="/book/imgs_den/031.jpg" style="height:250px;" alt="2004年09-12月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/031_cts.jpg" data-lightbox="den" data-title="2004年09-12月号 目次"><img src="/book/imgs_den/031_cts.jpg" style="height:250px;" alt="2004年09-12月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 032 2005年01-03月号</div><div class="den-1"><a href="/book/imgs_den/032.jpg" data-lightbox="den" data-title="2005年01-03月号 表紙"> <img src="/book/imgs_den/032.jpg" style="height:250px;" alt="2005年01-03月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/032_cts.jpg" data-lightbox="den" data-title="2005年01-03月号 目次"><img src="/book/imgs_den/032_cts.jpg" style="height:250px;" alt="2005年01-03月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 033 2005年04-06月号</div><div class="den-1"><a href="/book/imgs_den/033.jpg" data-lightbox="den" data-title="2005年04-06月号 表紙"> <img src="/book/imgs_den/033.jpg" style="height:250px;" alt="2005年04-06月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/033_cts.jpg" data-lightbox="den" data-title="2005年04-06月号 目次"><img src="/book/imgs_den/033_cts.jpg" style="height:250px;" alt="2005年04-06月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 034 2005年07-09月号</div><div class="den-1"><a href="/book/imgs_den/034.jpg" data-lightbox="den" data-title="2005年07-09月号 表紙"> <img src="/book/imgs_den/034.jpg" style="height:250px;" alt="2005年07-09月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/034_cts.jpg" data-lightbox="den" data-title="2005年07-09月号 目次"><img src="/book/imgs_den/034_cts.jpg" style="height:250px;" alt="2005年07-09月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 035 2005年10-12月号</div><div class="den-1"><a href="/book/imgs_den/035.jpg" data-lightbox="den" data-title="2005年10-12月号 表紙"> <img src="/book/imgs_den/035.jpg" style="height:250px;" alt="2005年10-12月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/035_cts.jpg" data-lightbox="den" data-title="2005年10-12月号 目次"><img src="/book/imgs_den/035_cts.jpg" style="height:250px;" alt="2005年10-12月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 036 2006年01-03月号</div><div class="den-1"><a href="/book/imgs_den/036.jpg" data-lightbox="den" data-title="2006年01-03月号 表紙"> <img src="/book/imgs_den/036.jpg" style="height:250px;" alt="2006年01-03月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/036_cts.jpg" data-lightbox="den" data-title="2006年01-03月号 目次"><img src="/book/imgs_den/036_cts.jpg" style="height:250px;" alt="2006年01-03月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 037 2006年04-06月号</div><div class="den-1"><a href="/book/imgs_den/037.jpg" data-lightbox="den" data-title="2006年04-06月号 表紙"> <img src="/book/imgs_den/037.jpg" style="height:250px;" alt="2006年04-06月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/037_cts.jpg" data-lightbox="den" data-title="2006年04-06月号 目次"><img src="/book/imgs_den/037_cts.jpg" style="height:250px;" alt="2006年04-06月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 038 2006年07-09月号</div><div class="den-1"><a href="/book/imgs_den/038.jpg" data-lightbox="den" data-title="2006年07-09月号 表紙"> <img src="/book/imgs_den/038.jpg" style="height:250px;" alt="2006年07-09月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/038_cts.jpg" data-lightbox="den" data-title="2006年07-09月号 目次"><img src="/book/imgs_den/038_cts.jpg" style="height:250px;" alt="2006年07-09月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 039 2006年10-12月号</div><div class="den-1"><a href="/book/imgs_den/039.jpg" data-lightbox="den" data-title="2006年10-12月号 表紙"> <img src="/book/imgs_den/039.jpg" style="height:250px;" alt="2006年10-12月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/039_cts.jpg" data-lightbox="den" data-title="2006年10-12月号 目次"><img src="/book/imgs_den/039_cts.jpg" style="height:250px;" alt="2006年10-12月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 040 2007年01-03月号</div><div class="den-1"><a href="/book/imgs_den/040.jpg" data-lightbox="den" data-title="2007年01-03月号 表紙"> <img src="/book/imgs_den/040.jpg" style="height:250px;" alt="2007年01-03月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/040_cts.jpg" data-lightbox="den" data-title="2007年01-03月号 目次"><img src="/book/imgs_den/040_cts.jpg" style="height:250px;" alt="2007年01-03月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 041 2007年04-06月号</div><div class="den-1"><a href="/book/imgs_den/041.jpg" data-lightbox="den" data-title="2007年04-06月号 表紙"> <img src="/book/imgs_den/041.jpg" style="height:250px;" alt="2007年04-06月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/041_cts.jpg" data-lightbox="den" data-title="2007年04-06月号 目次"><img src="/book/imgs_den/041_cts.jpg" style="height:250px;" alt="2007年04-06月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 042 2007年07-09月号</div><div class="den-1"><a href="/book/imgs_den/042.jpg" data-lightbox="den" data-title="2007年07-09月号 表紙"> <img src="/book/imgs_den/042.jpg" style="height:250px;" alt="2007年07-09月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/042_cts.jpg" data-lightbox="den" data-title="2007年07-09月号 目次"><img src="/book/imgs_den/042_cts.jpg" style="height:250px;" alt="2007年07-09月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 043 2007年10-12月号</div><div class="den-1"><a href="/book/imgs_den/043.jpg" data-lightbox="den" data-title="2007年10-12月号 表紙"> <img src="/book/imgs_den/043.jpg" style="height:250px;" alt="2007年10-12月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/043_cts.jpg" data-lightbox="den" data-title="2007年10-12月号 目次"><img src="/book/imgs_den/043_cts.jpg" style="height:250px;" alt="2007年10-12月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 044 2008年01-03月号</div><div class="den-1"><a href="/book/imgs_den/044.jpg" data-lightbox="den" data-title="2008年01-03月号 表紙"> <img src="/book/imgs_den/044.jpg" style="height:250px;" alt="2008年01-03月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/044_cts.jpg" data-lightbox="den" data-title="2008年01-03月号 目次"><img src="/book/imgs_den/044_cts.jpg" style="height:250px;" alt="2008年01-03月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 045 2008年04-06月号</div><div class="den-1"><a href="/book/imgs_den/045.jpg" data-lightbox="den" data-title="2008年04-06月号 表紙"> <img src="/book/imgs_den/045.jpg" style="height:250px;" alt="2008年04-06月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/045_cts.jpg" data-lightbox="den" data-title="2008年04-06月号 目次"><img src="/book/imgs_den/045_cts.jpg" style="height:250px;" alt="2008年04-06月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 046 2008年07-09月号</div><div class="den-1"><a href="/book/imgs_den/046.jpg" data-lightbox="den" data-title="2008年07-09月号 表紙"> <img src="/book/imgs_den/046.jpg" style="height:250px;" alt="2008年07-09月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/046_cts.jpg" data-lightbox="den" data-title="2008年07-09月号 目次"><img src="/book/imgs_den/046_cts.jpg" style="height:250px;" alt="2008年07-09月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 047 2008年10-12月号</div><div class="den-1"><a href="/book/imgs_den/047.jpg" data-lightbox="den" data-title="2008年10-12月号 表紙"> <img src="/book/imgs_den/047.jpg" style="height:250px;" alt="2008年10-12月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/047_cts.jpg" data-lightbox="den" data-title="2008年10-12月号 目次"><img src="/book/imgs_den/047_cts.jpg" style="height:250px;" alt="2008年10-12月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 048 2009年01-03月号</div><div class="den-1"><a href="/book/imgs_den/048.jpg" data-lightbox="den" data-title="2009年01-03月号 表紙"> <img src="/book/imgs_den/048.jpg" style="height:250px;" alt="2009年01-03月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/048_cts.jpg" data-lightbox="den" data-title="2009年01-03月号 目次"><img src="/book/imgs_den/048_cts.jpg" style="height:250px;" alt="2009年01-03月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 049 2009年04-06月号</div><div class="den-1"><a href="/book/imgs_den/049.jpg" data-lightbox="den" data-title="2009年04-06月号 表紙"> <img src="/book/imgs_den/049.jpg" style="height:250px;" alt="2009年04-06月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/049_cts.jpg" data-lightbox="den" data-title="2009年04-06月号 目次"><img src="/book/imgs_den/049_cts.jpg" style="height:250px;" alt="2009年04-06月号 目次" class="shadow"></a></div></div>
+<div class="den-0"><div class="den-t">●DEN 050 2009年07-09月号</div><div class="den-1"><a href="/book/imgs_den/050.jpg" data-lightbox="den" data-title="2009年07-09月号 表紙"> <img src="/book/imgs_den/050.jpg" style="height:250px;" alt="2009年07-09月号 表紙" class="shadow"></a></div><div class="den-2"><a href="/book/imgs_den/050_cts.jpg" data-lightbox="den" data-title="2009年07-09月号 目次"><img src="/book/imgs_den/050_cts.jpg" style="height:250px;" alt="2009年07-09月号 目次" class="shadow"></a></div></div>
+
+                        
+                        </div>
+                     </td>
+                  </tr>
+               </table>
+               <div id="footer"> </div>
+            </div>
+         </td>
+      </tr>
+   </table>
+</div>
+<!-- Google tag (gtag.js) --> 
+<script async src = "https://www.googletagmanager.com/gtag/js?id=G-PCFJHJVDRD"></script>
+<script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag() {
+      dataLayer.push(arguments);
+   }
+   gtag('js', new Date());
+   gtag('config', 'G-PCFJHJVDRD'); 
+</script>
+</body>
+</html>

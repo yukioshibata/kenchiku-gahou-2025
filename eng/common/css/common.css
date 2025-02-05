@@ -1,0 +1,372 @@
+@charset "UTF-8";
+
+.container_box {
+	_text-align: center;
+}
+
+#container {
+	margin: 0 auto;
+	width: 1000px;
+	_text-align: left;
+}
+
+#container td {
+	vertical-align: top;
+}
+
+#container td#headerArea {
+	height: 155px;
+}
+
+#container #header {
+	width: 100%;
+	height: 115px;
+	padding: 20px 0 18px;
+}
+
+#container #header #header_title {
+	float: left;
+	width: 26.9%;
+}
+
+#container #header #header_title img {
+	vertical-align: bottom;
+}
+
+#container #header table#header_search {
+	float: right;
+	height: 100%;
+}
+
+#container #header table#header_search td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: bottom;
+}
+
+#container #header table#header_search td.area_langages {
+	width: 285px;
+	_width: 290px;
+}
+
+#container #header table#header_search input.area_search {
+	margin: 2px 0 0;
+	padding: 1px 0;
+	width: 110px;
+	height: 16px;
+	_height: 21px;
+}
+
+#container #header table#header_search input.button_search {
+	margin: 2px 2px 0;
+	padding: 1px 6px;
+	height: 22px;
+}
+
+#container #footer {
+	width: 100%;
+	padding-bottom: 20px;
+	overflow: auto;
+}
+
+#container #footer img {
+	float: right;
+	margin-left: 20px;
+	vertical-align: bottom;
+}
+
+#footer .warning {
+	clear: both;
+	margin: 10px auto;
+	width: 100%;
+	text-align: center;
+	font-size: 9px;
+}
+
+#footer #footer_menuCentering {
+	text-align: center;
+	overflow: hidden;
+}
+
+#footer #footer_menuCentering #footer_menuWrapper {
+	margin: 0 auto;
+}
+
+#footer #footer_menuCentering #footer_menuWrapper ul#footer_menu {
+	float: right;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	*margin-left: 1em;
+}
+
+#footer #footer_menuCentering #footer_menuWrapper ul#footer_menu li {
+	float: left;
+	list-style: none;
+	background: url("../imgs/list_disc.gif") no-repeat left center transparent;
+	vertical-align: middle;
+	margin-left: 20px;
+	padding-left: 12px;
+	*padding-left: 15px;
+	*display: inline;
+}
+
+#footer #footer_menuCentering #footer_menuWrapper ul#footer_menu li.left_menu {
+	margin-left: 0;
+}
+
+#footer #footer_menuCentering #footer_menuWrapper ul#footer_menu li a {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", osaka, "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
+	vertical-align: middle;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 26px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+#footer #footer_menuCentering #footer_menuWrapper ul#footer_menu li a:hover {
+	color: #707070;
+	text-decoration: none;
+}
+
+
+.clearfix {
+	display: block;
+	*min-height: 1%;
+	_height: 1%;
+	_overflow: visible;
+}
+
+.clearfix:after {
+	display: block;
+	content: ".";
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.blackBoldB {
+	color: #000000;
+	font-weight: bold;
+	vertical-align: middle;
+	font-size: 12px;
+}
+
+.redBoldB {
+	color: #FF0000;
+	font-weight: bold;
+	vertical-align: middle;
+	font-size: 12px;
+}
+
+.redBoldS {
+	color: #FF0000;
+	font-weight: bold;
+	vertical-align: middle;
+	font-size: 11px;
+}
+
+.grayBoldB {
+	color: #666666;
+	font-weight: bold;
+	vertical-align: middle;
+	font-size: 12px;
+}
+
+.grayS {
+	color: #666666;
+	vertical-align: middle;
+	font-size: 11px;
+}
+
+.blueBoldB {
+	color: #003366;
+	font-weight: bold;
+	vertical-align: middle;
+	font-size: 12px;
+}
+
+.blueS {
+	color: #003366;
+	vertical-align: middle;
+	font-size: 11px;
+}
+
+.greenBoldB {
+	color: #006633;
+	font-weight: bold;
+	vertical-align: middle;
+	font-size: 12px;
+}
+
+.caption {
+	margin-bottom: 12px;
+}
+
+
+.blueBoldB_NEWS {
+	color: #000066;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.bluegrayS {
+	color: #000066;
+	vertical-align: middle;
+	font-size: 11px;
+}
+
+/* button */
+a.button_home {
+	display: block;
+	width: 63px;
+	height: 26px;
+	text-indent: -9999px;
+	background-image: url("../imgs/button_home.gif");
+	background-position: top;
+	z-index: 100;
+}
+
+a.button_home:hover {
+	background-image: url("../imgs/button_home.gif");
+	background-position: bottom;
+	z-index: 100;
+}
+
+a.button_toEnglish {
+	float: right;
+	display: block;
+	margin: 0 5px 1px 0;
+	width: 90px;
+	height: 21px;
+	text-indent: -9999px;
+	background-image: url("../imgs/button_toEnglish.gif");
+	background-position: top;
+}
+
+a.button_toEnglish:hover {
+	background-image: url("../imgs/button_toEnglish.gif");
+	background-position: bottom;
+}
+
+a.button_toChinese {
+	float: right;
+	display: block;
+	margin: 0 5px 1px 0;
+	width: 90px;
+	height: 21px;
+	text-indent: -9999px;
+	background-image: url("../imgs/button_toChinese.gif");
+	background-position: top;
+}
+
+a.button_toChinese:hover {
+	background-image: url("../imgs/button_toChinese.gif");
+	background-position: bottom;
+}
+
+a.button_toJapanese {
+	float: right;
+	display: block;
+	margin: 0 5px 1px 0;
+	width: 90px;
+	height: 21px;
+	text-indent: -9999px;
+	background-image: url("../imgs/button_toJapanese.gif");
+	background-position: top;
+}
+
+a.button_toJapanese:hover {
+	background-image: url("../imgs/button_toJapanese.gif");
+	background-position: bottom;
+}
+
+a.button_detail {
+	display: block;
+	width: 141px;
+	height: 26px;
+	text-indent: -9999px;
+	background-image: url("../imgs/button_detail.gif");
+	background-position: top;
+}
+
+a.button_detail:hover {
+	background-image: url("../imgs/button_detail.gif");
+	background-position: bottom;
+}
+
+a.button_order {
+	display: block;
+	width: 47px;
+	height: 20px;
+	text-indent: -9999px;
+	background-image: url("../imgs/button_order.gif");
+	background-position: top;
+	background-repeat: no-repeat;
+	margin-top: 3px;
+	*margin-top: 5px;
+}
+
+a.button_order:hover {
+	background-image: url("../imgs/button_order.gif");
+	background-position: bottom;
+}
+
+a.button_order2 {
+	display: block;
+	width: 118px;
+	height: 50px;
+	text-indent: -9999px;
+	background-image: url("../imgs/button_order2.gif");
+	background-position: top;
+	background-repeat: no-repeat;
+	margin-top: 3px;
+	*margin-top: 5px;
+}
+
+a.button_order2:hover {
+	background-image: url("../imgs/button_order2.gif");
+	background-position: bottom;
+}
+
+a.button_map {
+	display: block;
+	margin-left: 20px;
+	width: 60px;
+	height: 21px;
+	text-indent: -9999px;
+	background-image: url("../imgs/button_map.gif");
+	background-position: top;
+}
+
+a.button_map:hover {
+	background-image: url("../imgs/button_map.gif");
+	background-position: bottom;
+}
+
+
+.pagetopLinkBlock {
+	_text-align: right;
+}
+
+a.pagetopLink {
+	display: block;
+	width: 132px;
+	height: 12px;
+	text-indent: -9999px;
+	background-image: url("../imgs/pagetop.gif");
+	background-position: top;
+	margin: 0 0 0 auto;
+	cursor: pointer;
+}
+
+a.pagetopLink:hover {
+	background-image: url("../imgs/pagetop.gif");
+	background-position: bottom;
+}
+
+.ie6centering {
+	_text-align: center;
+}

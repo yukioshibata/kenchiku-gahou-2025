@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta name="keywords" content="バックナンバー,建築画報,Visual Architecture,建築画報社" />
+<meta name="description" content="建築画報の「バックナンバー」のページ。雑誌「建築画報」のバックナンバーを紹介します。" />
+<title>建築画報</title>
+<script type="text/javascript">
+//<![CDATA[
+var absolute_location = document.location.href;
+var var_absolute_location = absolute_location.split("\\");
+var var_absolute_location_set = var_absolute_location.join("/");
+var absolute_path = "/";
+var jsfile_jquery = '<script src="'+absolute_path+'common/js/jquery.min.js" type="text/javascript"></'+'script>';
+var jsfile_common = '<script src="'+absolute_path+'common/js/common.js" type="text/javascript"></'+'script>';
+var cssfile_base = '<link rel="stylesheet" type="text/css" media="all" href="' +absolute_path+ 'common/css/base.css" /'+'>';
+var cssfile_common = '<link rel="stylesheet" type="text/css" media="all" href="' +absolute_path+ 'common/css/common.css" /'+'>';
+var cssfile_contents = '<link rel="stylesheet" type="text/css" media="all" href="' +absolute_path+ 'common/css/contents.css" /'+'>';
+var cssfile_contents_print = '<link rel="stylesheet" type="text/css" media="print" href="' +absolute_path+ 'common/css/contents_p.css" /'+'>';
+var cssfile_local = '<link rel="stylesheet" type="text/css" media="all" href="./style.css" /'+'>';
+var link_home = '<link rel="home" href="' +absolute_path+ '">';
+document.write(jsfile_jquery,jsfile_common,cssfile_base,cssfile_common,cssfile_contents,cssfile_contents_print,cssfile_local,link_home);
+
+var pageTitle = "back_number_d";
+//]]>
+</script>
+<!--GoogleAnalytics-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22703134-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+<noscript>
+<p>当サイトはJavaScriptをonにしてご覧ください。</p>
+</noscript>
+<div class="container_box">
+<table id="container">
+<tr>
+<td colspan="4">
+<div id="header"></div>
+</td>
+</tr>
+
+<tr>
+<td id="menu_other"><br /></td>
+<td id="menu_info"><br /></td>
+<td id="menu_issue"><br /></td>
+
+
+<td id="areaR">
+<div id="banner"></div>
+
+<div id="contents">
+<table id="featured_table">
+<tr>
+<td rowspan="2" style="width: 280px;">
+<div class="image">
+<img src="./imgs/299.jpg" alt="JANUARY 2003 VOL.39 299" width="246" height="330" /><br />
+<img src="./imgs/sold_out_maskL.png" alt="" width="246" height="330" class="imgMask" />
+<img src="./imgs/sold_outL.png" alt="SOLD OUT" width="213" height="196" class="imgSoldOut" />
+</div>
+</td>
+<td>
+<div class="title">
+JANUARY 2003 VOL.39 299
+</div>
+<div class="subtitle">
+<span class="small">日本設計　創立35周年記念企画</span><br />
+教育・研究所施設特集
+</div>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: bottom;">
+<div class="button_upper_price">
+定価　2,000円（税別）<br />
+ISBN　4-901772-07-4</div>
+<!--
+<div class="button_order_bottom">
+<a href="../order/index.html?lst=299" class="button_order2">ご注文</a>
+</div>
+-->
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="3"><div style="height: 30px;"><br /></div></td>
+</tr>
+</table>
+
+<div id="detail">
+<table class="tableBN">
+<tr>
+<th>教育・研究所施設－日本設計の柱として　<span>取締役社長　伊丹　勝</span></th>
+</tr>
+<tr>
+<td><br /></td>
+</tr>
+<tr>
+<th>新しい日本設計と組織のDNA　<span>取締役副社長　六鹿正治</span></th>
+</tr>
+<tr>
+<td><br /></td>
+</tr>
+<tr>
+<th><span>教育施設座談会</span>　新しい学校の姿を求めて　<span>長澤　悟　許士豊史　福田卓司　小泉　治</span></th>
+</tr>
+<tr>
+<td><br /></td>
+</tr>
+<tr>
+<th><span>研究施設座談会</span>　21世紀の研究・研究施設の展望　<span>丹羽吉夫　齋藤繁喜　小林正一　増村昭二</span></th>
+</tr>
+<tr>
+<td><br /></td>
+</tr>
+</table>
+
+<table class="tableBN">
+<tr>
+<th class="captR">作品紹介</th>
+<th><br /></th>
+</tr>
+<tr>
+<td style="width: 13%;"><br /></td>
+<td>相模女子大学　マーガレットホール</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>諏訪東京理科大学</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>跡見学園女子大学新学部棟</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>洗足学園</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>洗足学園幼稚園</td>
+</tr>
+<tr>
+<td><br /></td>
+<td><a href="./299_001.html" class="popup"><span class="greenBoldB">洗足学園小学校</span></a></td>
+</tr>
+<tr>
+<td><br /></td>
+<td>洗足学園中学・高等学校</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>秋田県立県南地区中高一貫教育校</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>愛知淑徳学園　新大学棟</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>千歳科学技術大学</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>長崎国際大学</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>立教大学新座キャンパス</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>関西学院大学</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>神戸三田キャンパス／上ヶ原キャンパス</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>長岡造形大学大学院</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>流通科学大学サービス産業学部学科棟</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>東北公益文科大学</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>東北公益文科大学体育館</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>鶴岡タウンキャンパス</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>国士舘大学　1号館</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>日本大学　理工学部船橋校舎14号館</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>千葉大学　文科系総合研究棟</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>京都府立大学1号館</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>沖縄国際大学　新図書館</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>東京藝術大学大学美術館</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>清里キープ自然学校</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>インキュベーション・オン・キャンパス　本庄早稲田</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>北九州学術研究都市</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>北九州市立大学国際環境工学部</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>早稲田大学大学院　情報システム研究科</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>北九州学術研究都市　産学連携センター</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>北九州学術研究都市　情報技術高度化センター共同研究棟　開発センター</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>日本設計の研究所設計の変遷</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>産業技術総合研究所スーパークリーンルーム産学官連携研究棟（SCR）</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>産業技術総合研究所オープンスペース研究棟（筑波OSL）</td>
+</tr>
+<tr>
+<td><br /></td>
+<td><a href="./299_002.html" class="popup"><span class="greenBoldB">産業技術総合研究所臨海副都心センター（臨海OSL）</span></a></td>
+</tr>
+<tr>
+<td><br /></td>
+<td>産業技術総合研究所研究情報基盤整備センター</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>産業技術総合研究所産学官連携情報技術共同研究施設</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>日本大学工学部次世代工学技術研究センター</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>日本生活協同組合連合会商品検査センター</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>東京大学柏キャンパス</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>守衛所／低温・極限実験棟／物性研究所研究棟</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>立教大学池袋キャンパス理学部13号館（研究棟）</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>理化学研究所　発生・再生科学総合研究センター</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>国立水俣病総合研究センター</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>宮崎県工業技術センター</td>
+</tr>
+<tr>
+<td><br /></td>
+<td><br /></td>
+</tr>
+<tr>
+<td><br /></td>
+<td>建築概要</td>
+</tr>
+<tr>
+<td><br /></td>
+<td><br /></td>
+</tr>
+<tr>
+<th class="captR">column</th>
+<th><br /></th>
+</tr>
+<tr>
+<td><br /></td>
+<td>6・3・3から6・6、4・4・4へ</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>公益学とは（Community Service）</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>百間堀の再生　bio-tope</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>トグル制震装置</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>OKINAWA</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>インキュベーションと産学官連携</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>ソーラーチムニー</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>SCRミニ辞典</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>BIPV（建材一体型太陽光発電）の現在</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>現代の縁側空間～ダブルスキン～</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>ホフマン窯</td>
+</tr>
+<tr>
+<td><br /></td>
+<td>P2</td>
+</tr>
+</table>
+<br />
+<table class="tableBN">
+<tr>
+<td class="bluegrayS">VAコラム：編集顧問インタビュー　「人から人へ」Vol.20　渡辺邦夫（構造設計集団〈SDG〉代表）</td>
+</tr>
+<tr>
+<td class="bluegrayS">VA BOOKS</td>
+</tr>
+<tr>
+<td class="bluegrayS">VA NEWS</td>
+</tr>
+</table>
+</div>
+<div id="order_area"></div>
+<div id="footer"></div>
+</div>
+</td>
+</tr>
+</table>
+
+</div>
+</body>
+</html>

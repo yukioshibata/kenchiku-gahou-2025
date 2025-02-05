@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+#container #menu_other {
+	width: 89px;
+	background-color: #F29600;
+}
+
+#container #menu_info {
+	width: 89px;
+	background-color: #72B321;
+}
+
+#container #menu_issue {
+	width: 89px;
+	background-color: #2C9FCA;
+}
+
+#footer img {
+	float: right;
+	margin-left: 20px;
+	vertical-align: bottom;
+	width: 212px;
+	height: 20px;
+	padding: 3px 0;
+}
+
+#container .submenu {
+	width: 42px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+#container .submenu img {
+	margin-bottom: 18px;
+}
+
+#container .submenu a {
+	overflow: auto;
+}
+
+#container .submenu .nonPage {
+	opacity: 0.3;
+	-moz-opacity: 0.3;
+	filter: alpha(opacity=30);
+	zoom: 1;
+}
+
+#container .submenu .thisPage {
+	opacity: 0.7;
+	-moz-opacity: 0.7;
+	filter: alpha(opacity=70);
+	zoom: 1;
+}
+
+#container .submenu .submenuL {
+	float: left;
+	width: 18px;
+	margin: 0 0 0 auto;
+	text-align: left;
+}
+
+#container .submenu .submenuR {
+	float: right;
+	width: 18px;
+	margin: 0 auto 0 0;
+	text-align: right;
+}
+
+
+#container #areaR {
+}
+
+#container #areaR #banner {
+	width: 733px;
+	height: 90px;
+	background-position: top;
+}
+
+#container #areaR #contents {
+	vertical-align: top;
+	margin: 32px 36px 0;
+}
+
+/* featured */
+#container #areaR #featured {
+	width: 100%;
+	overflow: auto;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #000000;
+}
+
+#container #areaR #featured .featuredL {
+	float: left;
+}
+
+#container #areaR #featured .featuredR {
+	float: right;
+	width: 371px;
+}
+
+#container #areaR #featured .title {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", osaka, "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
+	color: #000066;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#container #areaR #featured .subtitle {
+	color: #000066;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#container #areaR #featured .contents {
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 200%;
+	margin-bottom: 15px;
+}
+
+#container #areaR #newsHistory {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+#container #areaR #newsHistory .newsContents {
+	padding: 17px 0 15px 5px;
+	border-bottom: 1px dashed #000000;
+}
+
+#container #areaR #newsHistory .newsContents .newsDate {
+	color: #E95711;
+	font-weight: bold;
+}
+
+#container #areaR #newsHistory .newsContents .newsTitle {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}

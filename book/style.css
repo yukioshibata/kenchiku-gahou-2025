@@ -1,0 +1,387 @@
+@charset "UTF-8";
+
+/* book list */
+#container #areaR table#book_list {
+	width: 750px;
+	margin-bottom: 30px;
+}
+
+#container #areaR table#book_list td.space {
+	width: 20px;
+}
+
+#container #areaR table#book_list td .tr_border {
+	border-bottom: 1px solid #336699;
+}
+
+#container #areaR table#book_list table.contents {
+	margin-top: 20px;
+}
+
+#container #areaR table#book_list table.contents td.contentsL {
+	width: 150px;
+	font-size: 1px;
+	line-height: 0;
+}
+
+#container #areaR table#book_list table.contents td.contentsL img {
+	width: 150px;
+	vertical-align: bottom;
+	border: 0;
+}
+
+#container #areaR table#book_list table.contents td.midSpace {
+	width: 15px;
+}
+
+#container #areaR table#book_list table.contents td.contentsR {
+	width: 185px;
+}
+
+#container #areaR table#book_list table.contents td.contentsR .title {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 150%;
+	color: #666666;
+}
+
+#container #areaR table#book_list table.contents td.contentsR .supervision {
+	margin-top: 20px;
+	line-height: 150%;
+	color: #666666;
+}
+
+#container #areaR table#book_list table.contents td.contentsR .index {
+	margin-top: 30px;
+	font-weight: bold;
+	line-height: 150%;
+	color: #666666;
+}
+
+#container #areaR table#book_list table.contents td.contentsR .detail {
+	margin-top: 10px;
+	line-height: 150%;
+	font-size: 11px;
+	color: #666666;
+}
+
+#container #areaR table#book_list table.contents td.contentsR .price {
+	margin: 20px 0;
+	line-height: 150%;
+	color: #666666;
+}
+
+#container #areaR table#book_list table.contents td.rightSpace {
+	width: 15px;
+}
+
+#container #areaR table#book_list table.contents td.contentsL .noHeight {
+	font-size: 1px;
+	line-height: 0;
+}
+
+#container #areaR table#book_list table.contents td.contentsL .noHeight img.imgMask {
+	position: relative;
+	left: 0px;
+	z-index: 5;
+}
+
+#container #areaR table#book_list table.contents td.contentsL .noHeight img.imgSoldOut {
+	position: relative;
+	left: 20px;
+
+	width: 130px;
+	height: 119px;
+
+	z-index: 10;
+}
+
+
+/* book list */
+#container #areaR table#book_list1 {
+	width: 750px;
+	margin-bottom: 30px;
+}
+
+#container #areaR table#book_list1 td.space {
+	width: 20px;
+}
+
+#container #areaR table#book_list1 td .tr_border {
+	border-bottom: 1px solid #336699;
+}
+
+#container #areaR table#book_list1 table.contents {
+	margin-top: 20px;
+}
+
+#container #areaR table#book_list1 table.contents td.contentsL {
+	width: 150px;
+	font-size: 1px;
+	line-height: 0;
+}
+
+#container #areaR table#book_list1 table.contents td.contentsL img {
+	width: 150px;
+	vertical-align: bottom;
+	border: 0;
+}
+
+#container #areaR table#book_list1 table.contents td.midSpace {
+	width: 15px;
+}
+
+#container #areaR table#book_list1 table.contents td.contentsR {
+	width: 185px;
+}
+
+#container #areaR table#book_list1 table.contents td.contentsR .title {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 150%;
+	color: #666666;
+}
+
+#container #areaR table#book_list1 table.contents td.contentsR .supervision {
+	margin-top: 20px;
+	line-height: 150%;
+	color: #666666;
+}
+
+#container #areaR table#book_list1 table.contents td.contentsR .index {
+	margin-top: 30px;
+	font-weight: bold;
+	line-height: 150%;
+	color: #666666;
+}
+
+#container #areaR table#book_list1 table.contents td.contentsR .detail {
+	margin-top: 10px;
+	line-height: 150%;
+	font-size: 11px;
+	color: #666666;
+}
+
+#container #areaR table#book_list1 table.contents td.contentsR .price {
+	margin: 20px 0;
+	line-height: 150%;
+	color: #666666;
+}
+
+#container #areaR table#book_list1 table.contents td.rightSpace {
+	width: 15px;
+}
+
+#container #areaR table#book_list1 table.contents td.contentsL .noHeight {
+	font-size: 1px;
+	line-height: 0;
+}
+
+#container #areaR table#book_list1 table.contents td.contentsL .noHeight img.imgMask {
+	position: relative;
+	left: 0px;
+	z-index: 5;
+}
+
+#container #areaR table#book_list1 table.contents td.contentsL .noHeight img.imgSoldOut {
+	position: relative;
+	left: 20px;
+
+	width: 130px;
+	height: 119px;
+
+	z-index: 10;
+}
+
+/* book list */
+#container #areaR table#book_list2 {
+	width: 750px;
+	margin-bottom: 30px;
+}
+
+#container #areaR table#book_list2 td.space {
+	width: 20px;
+}
+
+#container #areaR table#book_list2 td .tr_border {
+	border-bottom: 1px solid #336699;
+}
+
+#container #areaR table#book_list2 table.contents {
+	margin-top: 20px;
+}
+
+#container #areaR table#book_list2 table.contents td.contentsL {
+	width: 150px;
+	font-size: 1px;
+	line-height: 0;
+}
+
+#container #areaR table#book_list2 table.contents td.contentsL img {
+	width: 150px;
+	vertical-align: bottom;
+	border: 0;
+}
+
+#container #areaR table#book_list2 table.contents td.midSpace {
+	width: 15px;
+}
+
+#container #areaR table#book_list2 table.contents td.contentsR {
+	width: 185px;
+}
+
+#container #areaR table#book_list2 table.contents td.contentsR .title {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 150%;
+	color: #666666;
+}
+
+#container #areaR table#book_list2 table.contents td.contentsR .supervision {
+	margin-top: 20px;
+	line-height: 150%;
+	color: #666666;
+}
+
+#container #areaR table#book_list2 table.contents td.contentsR .index {
+	margin-top: 30px;
+	font-weight: bold;
+	line-height: 150%;
+	color: #666666;
+}
+
+#container #areaR table#book_list2 table.contents td.contentsR .detail {
+	margin-top: 10px;
+	line-height: 150%;
+	font-size: 11px;
+	color: #666666;
+}
+
+#container #areaR table#book_list2 table.contents td.contentsR .price {
+	margin: 20px 0;
+	line-height: 150%;
+	color: #666666;
+}
+
+#container #areaR table#book_list2 table.contents td.rightSpace {
+	width: 15px;
+}
+
+#container #areaR table#book_list2 table.contents td.contentsL .noHeight {
+	font-size: 1px;
+	line-height: 0;
+}
+
+#container #areaR table#book_list2 table.contents td.contentsL .noHeight img.imgMask {
+	position: relative;
+	left: 0px;
+	z-index: 5;
+}
+
+#container #areaR table#book_list2 table.contents td.contentsL .noHeight img.imgSoldOut {
+	position: relative;
+	left: 20px;
+
+	width: 130px;
+	height: 119px;
+
+	z-index: 10;
+}
+
+
+/* book list */
+#container #areaR table#book_list3 {
+	width: 750px;
+	margin-bottom: 30px;
+}
+
+#container #areaR table#book_list3 td.space {
+	width: 20px;
+}
+
+#container #areaR table#book_list3 td .tr_border {
+	border-bottom: 1px solid #336699;
+}
+
+#container #areaR table#book_list3 table.contents {
+	margin-top: 20px;
+}
+
+#container #areaR table#book_list3 table.contents td.contentsL {
+	width: 150px;
+	font-size: 1px;
+	line-height: 0;
+}
+
+#container #areaR table#book_list3 table.contents td.contentsL img {
+	width: 150px;
+	vertical-align: bottom;
+	border: 0;
+}
+
+#container #areaR table#book_list3 table.contents td.midSpace {
+	width: 15px;
+}
+
+#container #areaR table#book_list3 table.contents td.contentsR {
+	width: 185px;
+}
+
+#container #areaR table#book_list3 table.contents td.contentsR .title {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 150%;
+	color: #666666;
+}
+
+#container #areaR table#book_list3 table.contents td.contentsR .supervision {
+	margin-top: 20px;
+	line-height: 150%;
+	color: #666666;
+}
+
+#container #areaR table#book_list3 table.contents td.contentsR .index {
+	margin-top: 30px;
+	font-weight: bold;
+	line-height: 150%;
+	color: #666666;
+}
+
+#container #areaR table#book_list3 table.contents td.contentsR .detail {
+	margin-top: 10px;
+	line-height: 150%;
+	font-size: 11px;
+	color: #666666;
+}
+
+#container #areaR table#book_list3 table.contents td.contentsR .price {
+	margin: 20px 0;
+	line-height: 150%;
+	color: #666666;
+}
+
+#container #areaR table#book_list3 table.contents td.rightSpace {
+	width: 15px;
+}
+
+#container #areaR table#book_list3 table.contents td.contentsL .noHeight {
+	font-size: 1px;
+	line-height: 0;
+}
+
+#container #areaR table#book_list3 table.contents td.contentsL .noHeight img.imgMask {
+	position: relative;
+	left: 0px;
+	z-index: 5;
+}
+
+#container #areaR table#book_list3 table.contents td.contentsL .noHeight img.imgSoldOut {
+	position: relative;
+	left: 20px;
+
+	width: 130px;
+	height: 119px;
+
+	z-index: 10;
+}
