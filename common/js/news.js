@@ -1,5 +1,10 @@
 newsCallback(
    [
+         {
+         'newsDate': '2025.02.10',
+         'newsTitle': '　<a href="./book/index.html?tab=3"><span class="blueBoldB_NEWS">「松本哲夫展 剣持勇の意思を継承するインテリアアークテクト」の図録、この建築画報社WEBサイトから購入可能です。</a>',
+         'contents': '',
+      },
       {
          'newsDate': '2025.01.23',
          'newsTitle': '<a href="./va_current_issue/index.html"><span class="blueBoldB_NEWS">「建築画報No.400 カーボンニュートラル、その先へ⋯ ZEB/ZEH-M特集 izumi CONSULTING」 好評発売中！</a>',
